@@ -48,7 +48,7 @@ Toda essa infraestrutura roda em containers Docker, facilitando a instalação, 
 
 <div align="center">
   
-  ![Infraestrutura do Servidor](./Arquitetura%20IoT%20Fiware.png)
+  ![Infraestrutura do Servidor](imgs/Arquitetura%20IoT%20Fiware.png)
   
 </div>
 
@@ -119,7 +119,7 @@ Toda essa infraestrutura roda em containers Docker, facilitando a instalação, 
 
 Todo o funcionamento do sistema de monitoramento com IRs, botão e display LCD I2C está implementado no código ESP32 a seguir:
 
-[👉 Visualizar código no GitHub](./codigo_fonte.cpp)
+[👉 Visualizar código no GitHub](imgs/codigo_fonte.cpp)
 
 ## 👥 Integrantes do Grupo
 
