@@ -121,6 +121,33 @@ Todo o funcionamento do sistema de monitoramento com IRs, botão e display LCD I
 
 [👉 Visualizar código no GitHub](imgs/codigo_fonte.cpp)
 
+## 🐳 Executando com Docker Compose
+
+Para facilitar a execução da aplicação e de toda a stack FIWARE necessária (Orion, IoT Agent, Mosquitto, MongoDB, STH-Comet), disponibilizamos um arquivo docker-compose.yml.
+
+### ▶️ Passos para rodar
+
+1) Clone o repositório:
+
+```bash
+  git clone https://github.com/seu-usuario/seu-repo.git
+  cd seu-repo
+```
+
+2) Suba os serviços com:
+
+```bash
+  docker-compose up -d
+```
+
+3) Verifique se os containers estão rodando:
+
+```bash
+  docker ps
+```
+
+[👉 Visualizar docker-compose.yaml no GitHub](./docker-compose.yaml)
+
 ## 👥 Integrantes do Grupo
 
 | [<img loading="lazy" src="https://github.com/DaviMunhoz1005.png" width=115><br><sub>Davi Marques</sub>](https://github.com/DaviMunhoz1005) |  [<img loading="lazy" src="https://github.com/Gabsgc01.png" width=115><br><sub>Gabriel Ciriaco</sub>](https://github.com/Gabsgc01) | [<img loading="lazy" src="https://github.com/MariFranca.png" width=115><br><sub>Mariana Souza</sub>](https://github.com/MariFranca) | [<img loading="lazy" src="https://github.com/larissashiba.png" width=115><br><sub>Larissa Shiba</sub>](https://github.com/larissashiba) | [<img loading="lazy" src="https://github.com/Mafraaa.png" width=115><br><sub>Vinicius Mafra</sub>](https://github.com/Mafraaa) | 
