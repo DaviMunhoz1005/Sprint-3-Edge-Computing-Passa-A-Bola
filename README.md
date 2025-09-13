@@ -27,10 +27,13 @@ Cada gol detectado é enviado automaticamente para um servidor, que atualiza o p
 
 ## 🏆 Critérios de Aceitação
 
+### Requisitos Obrigatórios
 - Ao atravessar a barreira IR, o sistema registra um gol e incrementa o placar;
 - O botão pode ser pressionado para anular o último gol;
 - Registro legível no LCD I2C;
-- (Opcional) Evento enviado ao servidor e refletido no dashboard em menos de 2 segundos.
+
+### Requisito Opcional
+- Evento enviado ao servidor e refletido no dashboard em menos de 2 segundos.
 
 ## 🏗️ Arquitetura Proposta
 A arquitetura do projeto foi desenhada para integrar sensores físicos, processamento em tempo real e visualização dos dados em um painel de controle.
@@ -120,5 +123,5 @@ Todo o funcionamento do sistema de monitoramento com IRs, botão e display LCD I
 
 ## 👥 Integrantes do Grupo
 
-| [<img loading="lazy" src="https://github.com/DaviMunhoz1005.png" width=115><br><sub>Davi Marques</sub>](https://github.com/DaviMunhoz1005) |  [<img loading="lazy" src="https://github.com/Gabsgc01.png" width=115><br><sub>Gabriel Ciriaco</sub>](https://github.com/Gabsgc01) | [<img loading="lazy" src="https://github.com/MariFranca.png" width=115><br><sub>Mariana Franca</sub>](https://github.com/MariFranca) | [<img loading="lazy" src="https://github.com/larissashiba.png" width=115><br><sub>Larissa Shiba</sub>](https://github.com/larissashiba) | [<img loading="lazy" src="https://github.com/Mafraaa.png" width=115><br><sub>Vinicius Mafra</sub>](https://github.com/Mafraaa) | 
+| [<img loading="lazy" src="https://github.com/DaviMunhoz1005.png" width=115><br><sub>Davi Marques</sub>](https://github.com/DaviMunhoz1005) |  [<img loading="lazy" src="https://github.com/Gabsgc01.png" width=115><br><sub>Gabriel Ciriaco</sub>](https://github.com/Gabsgc01) | [<img loading="lazy" src="https://github.com/MariFranca.png" width=115><br><sub>Mariana Souza</sub>](https://github.com/MariFranca) | [<img loading="lazy" src="https://github.com/larissashiba.png" width=115><br><sub>Larissa Shiba</sub>](https://github.com/larissashiba) | [<img loading="lazy" src="https://github.com/Mafraaa.png" width=115><br><sub>Vinicius Mafra</sub>](https://github.com/Mafraaa) | 
 | :---: | :---: | :---: | :---: | :---: |
